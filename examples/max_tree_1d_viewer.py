@@ -92,7 +92,7 @@ def setup_comparison_row(signal_ax, tree_ax, signal, label):
 
 
 def main():
-    original = np.array([0, 3, 1, 4, 0, 2, 5, 5, 2, 0], dtype=np.uint8)
+    original = np.array([0, 7, 4, 8, 9, 5, 4, 2, 5, 3, 8, 7, 6, 1, 4], dtype=np.uint8)
     edited = original.copy()
     fig, ((original_ax, original_tree_ax), (edited_ax, edited_tree_ax)) = plt.subplots(
         2, 2, figsize=(10, 7), layout="constrained", sharey=True
